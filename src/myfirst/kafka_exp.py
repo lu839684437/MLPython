@@ -54,7 +54,7 @@ class Kafka_consumer():
                                       auto_commit_interval_ms=100)
         #auto_commit_interval_ms=100，游标确认时间
         
-
+#ggggg
     def consume_data(self):
         try:
             for message in self.consumer:
